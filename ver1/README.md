@@ -1,7 +1,7 @@
 # Ver.1
 <br>
 
-**Use Skill :**  `reuqests`,`selenium`,`beutifullsoup4`,`psycopg2`,`postgreDB`,`konlpy`
+**Use Skill :**  `reuqests`,`selenium`,`beutifullsoup4`,`psycopg2`,`ElephantSQL`,`konlpy`
 
 
 <br>
@@ -21,7 +21,7 @@
 <br>
 
 ## Data Load
-- 전처리를 통해서 만들어진 정형데이터를 csv파일에서 postgreDB로 적재 진행해주었다. 
+- 전처리를 통해서 만들어진 정형데이터를 csv파일에서 ElephantSQL로 적재 진행해주었다. 
   - python을 이용해서 데이터베이스를 구성하고 적재하였다. 
 <br>
 
