@@ -3,7 +3,7 @@ from job_scrap import class_saramin,class_wanted
 from load import load_datab
 from util import data_scaling
 import pandas as pd
-
+import time
 
 class Job_scraping:
     def __init__(self,must_keyword,keyword,cdb,host,database,user,password,test):
@@ -84,6 +84,7 @@ class Job_scraping:
        
 
 if __name__=="__main__":
+    start = time.time()
     _keyword = ["데이터 엔지니어","data engineer"]
     _cdb = 4
     _testopt = True
@@ -104,6 +105,9 @@ if __name__=="__main__":
 
 
     scrap.job_scraping()
+    end = time.time()
+
+    print(f"{end - start:.5f} sec")
 
 
 
